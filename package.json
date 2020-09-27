@@ -1,0 +1,16 @@
+{
+  "name": "fortune_cookies",
+  "version": "1.0.0",
+  "description": "crack_this_cookie",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nzhou26",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "pug": "^3.0.0"
+  }
+}
