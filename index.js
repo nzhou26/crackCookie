@@ -27,15 +27,25 @@ var strNum = ranNum.toString();
 var lastDigit = parseInt(strNum[strNum.length -1]);
 //var doSomething =["搓澡", "挖鼻屎", "吃棒棒糖", "玩动森", "画裸男"];
 //var things;
-if(lastDigit == 1 || lastDigit == 2){
+if(lastDigit == 1 ){
     things = "搓澡";
-}else if(lastDigit == 3 || lastDigit == 4){
+}else if(lastDigit == 2){
+    things = "唱歌";
+}else if(lastDigit == 3){
+    things = "掏耳朵";
+}else if (lastDigit == 4){
     things = "挖鼻屎";
-}else if(lastDigit == 5 || lastDigit == 6){
+}else if(lastDigit == 5){
+    things = "看云彩";
+}else if(lastDigit == 6){
     things = "吃棒棒糖";
-}else if(lastDigit == 7 || lastDigit == 8){
+}else if(lastDigit == 7){
+    things = "使劲跳三下";
+}else if(lastDigit == 8){
     things = "玩动森";
-}else if(lastDigit == 9 || lastDigit == 0){
+}else if(lastDigit == 9){
+    things = "看纪录片";
+}else if(lastDigit == 0){
     things = "画裸男";
 };
 
